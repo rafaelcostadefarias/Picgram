@@ -13,6 +13,11 @@
 		0BB8223220530A4E0060FF5E /* Picgram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8223020530A4E0060FF5E /* Picgram.xcdatamodeld */; };
 		0BB8223420530A4E0060FF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB8223320530A4E0060FF5E /* Assets.xcassets */; };
 		0BB8223720530A4E0060FF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB8223520530A4E0060FF5E /* LaunchScreen.storyboard */; };
+		0BB8223F205310050060FF5E /* EfeitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8223E205310050060FF5E /* EfeitosViewController.swift */; };
+		0BB82241205310200060FF5E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB82240205310200060FF5E /* FinalViewController.swift */; };
+		0BB8224320548D460060FF5E /* MetodosProprios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8224220548D460060FF5E /* MetodosProprios.swift */; };
+		0BB82245205496A90060FF5E /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB82244205496A90060FF5E /* FilterManager.swift */; };
+		0BB822472054AD4A0060FF5E /* EfeitosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		0BB8223320530A4E0060FF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB8223620530A4E0060FF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB8223820530A4E0060FF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB8223E205310050060FF5E /* EfeitosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfeitosViewController.swift; sourceTree = "<group>"; };
+		0BB82240205310200060FF5E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		0BB8224220548D460060FF5E /* MetodosProprios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodosProprios.swift; sourceTree = "<group>"; };
+		0BB82244205496A90060FF5E /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfeitosCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			children = (
 				0BB8222920530A4E0060FF5E /* AppDelegate.swift */,
 				0BB8222B20530A4E0060FF5E /* ViewController.swift */,
+				0BB82244205496A90060FF5E /* FilterManager.swift */,
+				0BB82240205310200060FF5E /* FinalViewController.swift */,
+				0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */,
+				0BB8224220548D460060FF5E /* MetodosProprios.swift */,
+				0BB8223E205310050060FF5E /* EfeitosViewController.swift */,
 				0BB8222D20530A4E0060FF5E /* Main.storyboard */,
 				0BB8223320530A4E0060FF5E /* Assets.xcassets */,
 				0BB8223520530A4E0060FF5E /* LaunchScreen.storyboard */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB822472054AD4A0060FF5E /* EfeitosCollectionViewCell.swift in Sources */,
+				0BB82241205310200060FF5E /* FinalViewController.swift in Sources */,
+				0BB8224320548D460060FF5E /* MetodosProprios.swift in Sources */,
+				0BB8223F205310050060FF5E /* EfeitosViewController.swift in Sources */,
 				0BB8222C20530A4E0060FF5E /* ViewController.swift in Sources */,
 				0BB8223220530A4E0060FF5E /* Picgram.xcdatamodeld in Sources */,
+				0BB82245205496A90060FF5E /* FilterManager.swift in Sources */,
 				0BB8222A20530A4E0060FF5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,13 +298,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRJ9M5BQ64;
 				INFOPLIST_FILE = Picgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram;
+				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,13 +316,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRJ9M5BQ64;
 				INFOPLIST_FILE = Picgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram;
+				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
