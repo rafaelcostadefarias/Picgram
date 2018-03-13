@@ -18,6 +18,18 @@
 		0BB8224320548D460060FF5E /* MetodosProprios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8224220548D460060FF5E /* MetodosProprios.swift */; };
 		0BB82245205496A90060FF5E /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB82244205496A90060FF5E /* FilterManager.swift */; };
 		0BB822472054AD4A0060FF5E /* EfeitosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */; };
+		0BB8224C2056FBD50060FF5E /* HED_so3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822492056FBD00060FF5E /* HED_so3.mlmodel */; };
+		0BB8224D2056FBD50060FF5E /* HED_fuse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8224A2056FBD30060FF5E /* HED_fuse.mlmodel */; };
+		0BB8224E2056FBD50060FF5E /* HED_so.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8224B2056FBD50060FF5E /* HED_so.mlmodel */; };
+		0BB82252205702260060FF5E /* EfeitosCoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB82251205702260060FF5E /* EfeitosCoreML.swift */; };
+		0BB822562057039D0060FF5E /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822542057039D0060FF5E /* UIImage+CVPixelBuffer.swift */; };
+		0BB822572057039D0060FF5E /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822552057039D0060FF5E /* UIImage+Resize.swift */; };
+		0BB8225920574C550060FF5E /* FNSCandy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8225820574C550060FF5E /* FNSCandy.mlmodel */; };
+		0BB8225B20576C920060FF5E /* FNSFeathers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8225A20576C920060FF5E /* FNSFeathers.mlmodel */; };
+		0BB8225D205772630060FF5E /* FNSLaMuse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8225C205772630060FF5E /* FNSLaMuse.mlmodel */; };
+		0BB822612057F39F0060FF5E /* FNSTheScream.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8225E2057F39E0060FF5E /* FNSTheScream.mlmodel */; };
+		0BB822622057F39F0060FF5E /* FNSUdnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8225F2057F39E0060FF5E /* FNSUdnie.mlmodel */; };
+		0BB822632057F39F0060FF5E /* FNSMosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BB822602057F39F0060FF5E /* FNSMosaic.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,18 @@
 		0BB8224220548D460060FF5E /* MetodosProprios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodosProprios.swift; sourceTree = "<group>"; };
 		0BB82244205496A90060FF5E /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 		0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfeitosCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BB822492056FBD00060FF5E /* HED_so3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HED_so3.mlmodel; sourceTree = "<group>"; };
+		0BB8224A2056FBD30060FF5E /* HED_fuse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HED_fuse.mlmodel; sourceTree = "<group>"; };
+		0BB8224B2056FBD50060FF5E /* HED_so.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HED_so.mlmodel; sourceTree = "<group>"; };
+		0BB82251205702260060FF5E /* EfeitosCoreML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfeitosCoreML.swift; sourceTree = "<group>"; };
+		0BB822542057039D0060FF5E /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		0BB822552057039D0060FF5E /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		0BB8225820574C550060FF5E /* FNSCandy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSCandy.mlmodel; sourceTree = "<group>"; };
+		0BB8225A20576C920060FF5E /* FNSFeathers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSFeathers.mlmodel; sourceTree = "<group>"; };
+		0BB8225C205772630060FF5E /* FNSLaMuse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSLaMuse.mlmodel; sourceTree = "<group>"; };
+		0BB8225E2057F39E0060FF5E /* FNSTheScream.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSTheScream.mlmodel; sourceTree = "<group>"; };
+		0BB8225F2057F39E0060FF5E /* FNSUdnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSUdnie.mlmodel; sourceTree = "<group>"; };
+		0BB822602057F39F0060FF5E /* FNSMosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSMosaic.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,8 @@
 			children = (
 				0BB8222820530A4E0060FF5E /* Picgram */,
 				0BB8222720530A4E0060FF5E /* Products */,
+				0BB822532057039D0060FF5E /* Utils */,
+				0BB822482056FB800060FF5E /* Models */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +96,7 @@
 				0BB8222B20530A4E0060FF5E /* ViewController.swift */,
 				0BB82244205496A90060FF5E /* FilterManager.swift */,
 				0BB82240205310200060FF5E /* FinalViewController.swift */,
+				0BB82251205702260060FF5E /* EfeitosCoreML.swift */,
 				0BB822462054AD4A0060FF5E /* EfeitosCollectionViewCell.swift */,
 				0BB8224220548D460060FF5E /* MetodosProprios.swift */,
 				0BB8223E205310050060FF5E /* EfeitosViewController.swift */,
@@ -80,6 +107,31 @@
 				0BB8223020530A4E0060FF5E /* Picgram.xcdatamodeld */,
 			);
 			path = Picgram;
+			sourceTree = "<group>";
+		};
+		0BB822482056FB800060FF5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BB8224A2056FBD30060FF5E /* HED_fuse.mlmodel */,
+				0BB8224B2056FBD50060FF5E /* HED_so.mlmodel */,
+				0BB822492056FBD00060FF5E /* HED_so3.mlmodel */,
+				0BB8225A20576C920060FF5E /* FNSFeathers.mlmodel */,
+				0BB8225C205772630060FF5E /* FNSLaMuse.mlmodel */,
+				0BB8225820574C550060FF5E /* FNSCandy.mlmodel */,
+				0BB822602057F39F0060FF5E /* FNSMosaic.mlmodel */,
+				0BB8225E2057F39E0060FF5E /* FNSTheScream.mlmodel */,
+				0BB8225F2057F39E0060FF5E /* FNSUdnie.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BB822532057039D0060FF5E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BB822542057039D0060FF5E /* UIImage+CVPixelBuffer.swift */,
+				0BB822552057039D0060FF5E /* UIImage+Resize.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,14 +206,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB822632057F39F0060FF5E /* FNSMosaic.mlmodel in Sources */,
 				0BB822472054AD4A0060FF5E /* EfeitosCollectionViewCell.swift in Sources */,
+				0BB822562057039D0060FF5E /* UIImage+CVPixelBuffer.swift in Sources */,
 				0BB82241205310200060FF5E /* FinalViewController.swift in Sources */,
 				0BB8224320548D460060FF5E /* MetodosProprios.swift in Sources */,
+				0BB8225B20576C920060FF5E /* FNSFeathers.mlmodel in Sources */,
+				0BB82252205702260060FF5E /* EfeitosCoreML.swift in Sources */,
+				0BB8225D205772630060FF5E /* FNSLaMuse.mlmodel in Sources */,
 				0BB8223F205310050060FF5E /* EfeitosViewController.swift in Sources */,
+				0BB8225920574C550060FF5E /* FNSCandy.mlmodel in Sources */,
 				0BB8222C20530A4E0060FF5E /* ViewController.swift in Sources */,
+				0BB822572057039D0060FF5E /* UIImage+Resize.swift in Sources */,
+				0BB822612057F39F0060FF5E /* FNSTheScream.mlmodel in Sources */,
+				0BB822622057F39F0060FF5E /* FNSUdnie.mlmodel in Sources */,
+				0BB8224D2056FBD50060FF5E /* HED_fuse.mlmodel in Sources */,
+				0BB8224C2056FBD50060FF5E /* HED_so3.mlmodel in Sources */,
 				0BB8223220530A4E0060FF5E /* Picgram.xcdatamodeld in Sources */,
 				0BB82245205496A90060FF5E /* FilterManager.swift in Sources */,
 				0BB8222A20530A4E0060FF5E /* AppDelegate.swift in Sources */,
+				0BB8224E2056FBD50060FF5E /* HED_so.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QRJ9M5BQ64;
 				INFOPLIST_FILE = Picgram/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,7 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QRJ9M5BQ64;
 				INFOPLIST_FILE = Picgram/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = icebox.Picgram2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

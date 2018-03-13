@@ -23,7 +23,14 @@ class EfeitosViewController: UIViewController {
     "halftone",
     "crystallize",
     "vignette",
-    "noir"
+    "noir",
+    "lapis",
+    "candy",
+    "feathers",
+    "lamuse",
+    "scream",
+    "mosaico",
+    "udnie"
     ]
     
     //MARK: Outlets
@@ -42,6 +49,8 @@ class EfeitosViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
+        self.navigationController?.navigationBar.tintAdjustmentMode = .normal
+        self.navigationController?.navigationBar.tintAdjustmentMode = .automatic
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

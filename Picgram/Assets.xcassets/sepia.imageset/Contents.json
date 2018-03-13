@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "sepia.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "sepia@2x.jpg",
       "scale" : "2x"
     },
     {
