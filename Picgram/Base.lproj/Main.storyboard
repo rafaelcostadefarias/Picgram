@@ -205,8 +205,8 @@
                                     <constraint firstAttribute="height" constant="40" id="IFL-mG-6fa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Começar novamente">
-                                    <color key="titleColor" red="0.95686274509803915" green="0.40392156862745099" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Recomeçar">
+                                    <color key="titleColor" red="0.89068001508712769" green="0.44526344537734985" blue="0.30975496768951416" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="comecar:" destination="0Fa-wh-bzn" eventType="touchUpInside" id="y80-lC-LzU"/>
@@ -216,7 +216,7 @@
                                 <rect key="frame" x="24" y="491" width="327" height="40"/>
                                 <color key="backgroundColor" red="0.89068001508712769" green="0.44526344537734985" blue="0.30975496768951416" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Salvar no álbum">
+                                <state key="normal" title="Salvar">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
