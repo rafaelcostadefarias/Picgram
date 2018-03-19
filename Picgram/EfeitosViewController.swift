@@ -18,6 +18,9 @@ class EfeitosViewController: UIViewController {
     
     
     let filterImageNames = [
+        "scream",
+        "mosaico",
+        "udnie",
     "comic",
     "sepia",
     "halftone",
@@ -27,10 +30,7 @@ class EfeitosViewController: UIViewController {
     "lapis",
     "candy",
     "feathers",
-    "lamuse",
-    "scream",
-    "mosaico",
-    "udnie"
+    "lamuse"
     ]
     
     //MARK: Outlets
