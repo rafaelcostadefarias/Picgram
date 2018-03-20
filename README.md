@@ -1,6 +1,8 @@
-# Project Title
+# PicGram 
 
-<img src = "https://github.com/rafaelcostadefarias/ConversorMoedas/blob/master/sc1.png" width="58">
+<img src = "https://github.com/rafaelcostadefarias/Picgram/blob/master/lambelambe01.png" width="58">
+<img src = "https://github.com/rafaelcostadefarias/Picgram/blob/master/lambelambe02.png" width="58">
+<img src = "https://github.com/rafaelcostadefarias/Picgram/blob/master/lambelambe03.png" width="58">
 Aplicativo para aplicar filtros em imagens. Possue alguns filtros padrão da Core Image e alguns utilizando modelos CoreML.
 
 
